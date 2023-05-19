@@ -7,6 +7,7 @@ from ClassTV import TV
 tv1 = TV(0, 0, False)
 
 # set channel
+tv1.set_channel(29)
 # channel up
 # set volume
 # volume up
@@ -21,4 +22,7 @@ tv2 = TV(0, 0, False)
 # set volume
 # volume down
 # turn on
+
+# testing grounds
+print(tv1.channel)
 
