@@ -13,6 +13,7 @@ tv1.channel_up()
 # set volume
 tv1.set_volume(2)
 # volume up
+tv1.volume_up()
 # turn on
 
 
