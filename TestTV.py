@@ -34,6 +34,6 @@ tv2.turn_off()
 
 # tv status
 print("tv1") 
-print(tv1.tv_status())
+tv1.tv_status()
 print("\ntv2") 
-print(tv2.tv_status())
+tv2.tv_status()
