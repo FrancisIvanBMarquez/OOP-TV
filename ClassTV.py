@@ -16,10 +16,10 @@ class TV:
         self.channel = new_channel
 
     def channel_up(self):
-        return self.channel + 1
+        self.channel = self.channel + 1
     
     def channel_down(self):
-        return self.channel - 1
+        self.channel = self.channel - 1
     
     # volume
     def get_volume(self):
@@ -29,10 +29,10 @@ class TV:
         self.volume_level = new_volume
 
     def volume_up(self):
-        return self.volume_level + 1
+        self.volume_level = self.volume_level + 1
     
     def volume_down(self):
-        return self.volume_level - 1
+        self.volume_level =  self.volume_level - 1
     
     # power
     def turn_on(self):
