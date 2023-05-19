@@ -15,6 +15,7 @@ tv1.set_volume(2)
 # volume up
 tv1.volume_up()
 # turn on
+tv1.turn_on()
 
 
 # call TV2 and print channel and volume
@@ -29,4 +30,5 @@ tv2 = TV(0, 0, False)
 # testing grounds
 print("channel: ", tv1.channel)
 print("volume: ", tv1.volume_level)
+print("power on: ", tv1.power_on)
 
