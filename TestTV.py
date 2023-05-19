@@ -24,6 +24,7 @@ tv2 = TV(0, 0, True)
 # set channel
 tv2.set_channel(4)
 # channel down
+tv2.channel_down()
 # set volume
 # volume down
 # turn off
