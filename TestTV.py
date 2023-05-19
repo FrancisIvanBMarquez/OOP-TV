@@ -11,6 +11,7 @@ tv1.set_channel(29)
 # channel up
 tv1.channel_up()
 # set volume
+tv1.set_volume(2)
 # volume up
 # turn on
 
@@ -25,5 +26,6 @@ tv2 = TV(0, 0, False)
 # turn on
 
 # testing grounds
-print(tv1.channel)
+print("channel: ", tv1.channel)
+print("volume: ", tv1.volume_level)
 
