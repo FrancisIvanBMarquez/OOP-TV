@@ -19,16 +19,16 @@ tv1.turn_on()
 
 
 # call TV2 and print channel and volume
-tv2 = TV(0, 0, False)
+tv2 = TV(0, 0, True)
 
 # set channel
 # channel down
 # set volume
 # volume down
-# turn on
+# turn off
 
 # testing grounds
-print("channel: ", tv1.channel)
-print("volume: ", tv1.volume_level)
-print("power on: ", tv1.power_on)
+print("channel: ", tv2.channel)
+print("volume: ", tv2.volume_level)
+print("power on: ", tv2.power_on)
 
