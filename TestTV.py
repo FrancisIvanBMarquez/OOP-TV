@@ -36,8 +36,3 @@ tv2.turn_off()
 tv1.tv_status()
 tv2.tv_status()
 
-# testing grounds
-print("channel: ", tv2.channel)
-print("volume: ", tv2.volume_level)
-print("power on: ", tv2.power_on)
-

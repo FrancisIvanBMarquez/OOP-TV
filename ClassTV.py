@@ -43,7 +43,8 @@ class TV:
 
     # check tv status
     def tv_status(self):
-        print(__class__, "'s channel is ", self.channel, "and volume is ", self.volume_level)
+        print("'s channel is ", self.channel, ", volume is ", self.volume_level)
+
 
 
     
