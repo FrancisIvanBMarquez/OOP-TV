@@ -30,6 +30,7 @@ tv2.set_volume(3)
 # volume down
 tv2.volume_down()
 # turn off
+tv2.turn_off()
 
 # testing grounds
 print("channel: ", tv2.channel)
