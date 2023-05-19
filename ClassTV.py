@@ -41,4 +41,9 @@ class TV:
     def turn_off(self):
         self.power_on = False
 
+    # check tv status
+    def tv_status(self):
+        print(__class__, "'s channel is ", self.channel, "and volume is ", self.volume_level)
+
+
     
