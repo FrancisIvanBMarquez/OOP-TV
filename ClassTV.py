@@ -20,5 +20,9 @@ class TV:
     
     def channel_down(self):
         return self.channel - 1
+    
     # volume
+    def get_volume(self):
+        print(self.volume_level)
+        
     # power
