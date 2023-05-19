@@ -27,6 +27,13 @@ class TV:
     
     def set_volume(self, new_volume):
         self.volume_level = new_volume
+
+    def volume_up(self):
+        return self.volume_level + 1
     
+    def volume_down(self):
+        return self.volume_level - 1
+    
+
 
     # power
