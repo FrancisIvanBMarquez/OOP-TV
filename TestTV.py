@@ -22,6 +22,7 @@ tv1.turn_on()
 tv2 = TV(0, 0, True)
 
 # set channel
+tv2.set_channel(4)
 # channel down
 # set volume
 # volume down
