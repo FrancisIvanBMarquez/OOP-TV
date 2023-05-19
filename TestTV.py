@@ -32,6 +32,10 @@ tv2.volume_down()
 # turn off
 tv2.turn_off()
 
+# tv status
+tv1.tv_status()
+tv2.tv_status()
+
 # testing grounds
 print("channel: ", tv2.channel)
 print("volume: ", tv2.volume_level)
