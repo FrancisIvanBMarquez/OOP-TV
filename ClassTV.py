@@ -34,6 +34,11 @@ class TV:
     def volume_down(self):
         return self.volume_level - 1
     
-
-
     # power
+    def turn_on(self):
+        self.power_on = True
+
+    def turn_off(self):
+        self.power_on = False
+
+    
