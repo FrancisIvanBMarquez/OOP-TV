@@ -26,6 +26,7 @@ tv2.set_channel(4)
 # channel down
 tv2.channel_down()
 # set volume
+tv2.set_volume(3)
 # volume down
 # turn off
 
