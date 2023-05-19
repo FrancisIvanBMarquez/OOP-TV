@@ -9,7 +9,10 @@ class TV:
         self.power_on = power_on
     # behaviors
     # channel
-    def GetChannel(self):
+    def get_channel(self):
         print(self.channel)
+    
+    def set_channel(self, new_channel):
+        self.channel = new_channel
     # volume
     # power
