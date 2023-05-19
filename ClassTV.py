@@ -14,5 +14,11 @@ class TV:
     
     def set_channel(self, new_channel):
         self.channel = new_channel
+
+    def channel_up(self):
+        return self.channel + 1
+    
+    def channel_down(self):
+        return self.channel - 1
     # volume
     # power
